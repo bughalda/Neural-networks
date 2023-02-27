@@ -5,6 +5,7 @@ class MultiLayerPerceptron:
             layers: A python list with the number of elements per layer
             bias: The bias term. The same bias is used for all neurons
             eta: The learning rate"""
+    
     def __init__(self,layers,bias = 1.0, eta = 0.5):
         """Return a new MLP object with the specified parameters"""
         self.layers = np.array(layers,dtype=object)
